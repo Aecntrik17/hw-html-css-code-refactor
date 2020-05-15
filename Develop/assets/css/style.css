@@ -83,23 +83,15 @@ p {
     background-color: #2589bd;
     color: #ffffff;
 }
-    
+    /* setting the margin got the three divs in the benefit container */
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
  }
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* setting position for header in each div within container */
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;

@@ -3,28 +3,28 @@
     padding: 0;
     margin: 0;
 }
-
+/* setting the background color of the entire page*/
 body {
     background-color: #d9dcd6;
 }
-
+/*setting default font and background color of the headers*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*setting default font, position, and background color of the company logo*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color:#d9dcd6;  
 }
-
+/* defining the font within the header logo */
 .seo {
     color: #d9dcd6;
 }
-
+/* defining the margins and spacing around the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,9 +33,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+
 
 .header div ul li {
     display: inline-block;

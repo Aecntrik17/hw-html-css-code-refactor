@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
 /* setting the background color of the entire page*/
 body {
     background-color: #d9dcd6;
 }
+
 /*setting default font and background color of the headers*/
 .header {
     padding: 20px;
@@ -14,16 +16,19 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /*setting default font, position, and background color of the company logo*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color:#d9dcd6;  
 }
+
 /* defining the font within the header logo */
 .seo {
     color: #d9dcd6;
 }
+
 /* defining the margins and spacing around the header */
 .header div {
     padding-top: 15px;
@@ -32,20 +37,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 /* setting the position of the nav panel buttons */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* setting the color and decoration of the links in nav panel */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* setting the font size of the paragraghs */
 p {
     font-size: 16px;
 }
+
 /* setting position, fonts, and size of the image */
 .hero {
     height: 800px;
@@ -55,22 +64,26 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 /* setting container metrics that holds the search results content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /* positioning the image within the search optimization section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 /* positioning the image within the online reputation management section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /* container for the benefits section aside */
 .benefits {
     margin-right: 20px;
@@ -89,6 +102,7 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
  }
+
 /* setting position for header in each div within container */
 .benefit-lead h3,
 .benefit-brand h3,
@@ -96,6 +110,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* defining position of image for benefit divs */
 .benefit-lead img,
 .benefit-brand img,
@@ -104,6 +119,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* defining position for content divs,font family and color */
 .search-engine-optimization,
 .online-reputation-management,
@@ -115,12 +131,14 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* setting size for images within content divs */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
+
 /* defining font size and margin for header within divs in content container */
 .search-engine-optimization h2,
 .online-reputation-management h2
@@ -129,9 +147,7 @@ p {
     font-size: 36px;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+/* setting parameters for footer div */
 .footer {
     padding: 30px;
     clear: both;
@@ -139,4 +155,8 @@ p {
     text-align: center;
 }
 
+/* setting font size for header within footer */
+.footer h2 {
+    font-size: 20px;
+}
 

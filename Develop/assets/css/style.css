@@ -32,23 +32,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-
-
+/* setting the position of the nav panel buttons */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* setting the color and decoration of the links in nav panel */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* setting the font size of the paragraghs */
 p {
     font-size: 16px;
 }
-
+/* setting position, fonts, and size of the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,23 +55,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* setting container metrics that holds the search results content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* positioning the image within the search optimization section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* positioning the image within the online reputation management section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* container for the benefits section aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,22 +81,14 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+    
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+ }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
